@@ -1,16 +1,25 @@
 body {
-    background: linear-gradient(to bottom, #ff7e5f, #feb47b);
+    background: linear-gradient(to bottom, #c75b0e, #8e220d);
     color: black;
 }
+
 .navbar {
     background-color: #000;
+   
 }
-.navbar-brand {
-    color: white;
+#navbar {
+    color: #c75b0e; 
 }
-.hero {
-    text-align: center;
-    padding: 50px 0;
+
+.navbarNav{
+    background-color: #c75b0e;
+}
+
+.nav-link{
+    color: #c75b0e;
+}
+.navbar-toggler-icon{
+    color: #c75b0e !important;
 }
 .hero img {
     max-width: 100%;
@@ -24,7 +33,21 @@ body {
 }
 .footer {
     background-color: #000;
-    color: white;
+    color:#c75b0e;
     padding: 20px 0;
     text-align: center;
+}
+.img-principale{
+    border-radius: 10px;
+
+}
+
+.img-fluid{
+    border-radius: 10px;
+}
+
+#slogan{
+    font-size: xx-large  !important;
+    font-style: unset;
+
 }
