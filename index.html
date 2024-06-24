@@ -6,25 +6,31 @@
     <title>French Tacos</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+    
 
    
 </head>
 <body>
     <nav class="navbar navbar-expand-lg ">
-        <a class="navbar-brand" id="navbar" href="#">FRENCH TACOS</a>
+        <a class="navbar-brand" id="navbar" href="index.html"><img src="img/Logo French Tacos.png" width=50% height=50%></a>
+        
         <button class="navbar-toggler" style="background-color: #c75b0e color black;" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
+            <ul class="navbar-nav ml-auto position-absolute top-50 start-50  ">
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="menu.html">Menu</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Menu</a>
+                    <a class="nav-link" href="contact.html">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="sign.html">Sign in</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="panier.html">Panier</a>
                 </li>
             </ul>
         </div>
@@ -41,43 +47,111 @@
     </div>
 
     <div class="container menu-section">
-        <h2 class="text-center">Choisissez votre Tacos selon votre faim:</h2>
+        <h2 class="text-center g-5">Choisissez votre Tacos selon votre faim:</h2>
         <div class="row">
             <div class="col-md-4 menu-item">
-                <img src="img/img-tacos-normal.png" class="img-fluid" alt="Le Basal">
-                <h3>Le Basal</h3>
+                <img src="img/img-tacos-normal.png" class="img-fluid" alt="M">
+                <h3>Tacos M</h3>
                 <p>6 €</p>
+                <button class="btn btn-outline-danger bg-dark">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                      </svg>
+                </i></button>
             </div>
             <div class="col-md-4 menu-item">
-                <img src="img/img-tacos-normal.png" class="img-fluid" alt="Le gratiné">
-                <h3>Le gratiné</h3>
+                <img src="img/img-tacos-normal.png" class="img-fluid" alt="L">
+                <h3>Tacos L</h3>
                 <p>8 €</p>
+                <button class="btn btn-outline-danger bg-dark">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                      </svg>
+                </i></button>
             </div>
             <div class="col-md-4 menu-item">
-                <img src="img/img-tacos-normal.png" class="img-fluid" alt="Le chèvre miel">
-                <h3>Le chèvre miel</h3>
+                <img src="img/img-tacos-normal.png" class="img-fluid" alt="XL">
+                <h3>Tacos XL</h3>
                 <p>9 €</p>
+                <button class="btn btn-outline-danger bg-dark">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                      </svg>
+                </i></button>
             </div>
         </div>
     </div>
 
-    <div class="container menu-section">
-        <h2 class="text-center">Vous préférez un hamburger ?</h2>
+    <div class="container menu-section2">
+       
         <div class="row">
             <div class="col-md-4 menu-item">
+                <img src="img/tacos bowl.jpeg" class="img-fluid" alt="Le Bowl">
+                <h3>Le Bowl</h3>
+                <p>6 €</p>
+                <button class="btn btn-outline-danger bg-dark">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                      </svg>
+                </i></button>
+            </div>
+            <div class="col-md-4 menu-item">
+                <img src="img/tacos gratiné.png" class="img-fluid" alt="Le gratiné">
+                <h3>Le gratiné</h3>
+                <p>8 €</p>
+                <button class="btn btn-outline-danger bg-dark">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                      </svg>
+                </i></button>
+            </div>
+            <div class="col-md-4 menu-item">
+                <img src="img/gratine-chevre-miel-700x460-1.jpeg" class="img-fluid" alt="Le chèvre miel">
+                <h3>Le chèvre miel</h3>
+                <p>9 €</p>
+                <button class="btn btn-outline-danger bg-dark">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                      </svg>
+                </i></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container menu-section3">
+        <h2 class="text-center">Vous préférez un hamburger ?</h2>
+        <div class="row justify-content-start">
+            <div class="col-md-9" id="hamburger">
                 <img src="img/hamburger.jpeg" class="img-fluid" alt="Hamburger">
                 <h3>Hamburger</h3>
                 <p>5 €</p>
+                <button class="btn btn-outline-danger bg-dark">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                      </svg>
+                </i></button>
             </div>
-            <div class="col-md-4 menu-item">
-                <img src="img/double cheese.png" class="img-fluid" alt="DOUBLE Cheeseburger">
-                <h3>DOUBLE Cheeseburger</h3>
-                <p>7 €</p>
-            </div>
-            <div class="col-md-4 menu-item">
-                <img src="img/cheeseburger.jpg" class="img-fluid" alt="Cheeseburger">
-                <h3>Cheeseburger</h3>
-                <p>6 €</p>
+            <div class="row justify-content-start"></div>
+                <div class="col-md-4 align-self-start">
+                    <img src="img/double cheese.png" class="img-fluid" alt="DOUBLE Cheeseburger">
+                    <h3>DOUBLE Cheeseburger</h3>
+                    <p>7 €</p>
+                    <button class="btn btn-outline-danger bg-dark">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                          </svg>
+                    </i></button>
+                </div>
+                <div class="col-md-4 align-self-end">
+                    <img src="img/cheeseburger.jpg" class="img-fluid" alt="Cheeseburger">
+                    <h3>Cheeseburger</h3>
+                    <p>6 €</p>
+                    <button class="btn btn-outline-danger bg-dark">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                          </svg>
+                    </i></button>
+                </div>
             </div>
         </div>
     </div>
@@ -88,8 +162,10 @@
         </div>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+   
 </body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="main.js"></script>
 </html>
